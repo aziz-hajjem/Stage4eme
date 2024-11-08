@@ -36,7 +36,7 @@ class RegistrationController extends AbstractController
         if ($form->isSubmitted() && $form->isValid()) {
             // encode the plain password
             
-            $user->setImage("emp.jpg");
+            $user->setImage("emp.png");
             $user->setStatut(true);
             
             //$user->setDateNaissance(new DateTime("2000-06-12"));
